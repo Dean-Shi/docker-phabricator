@@ -14,9 +14,9 @@ if [ ! -f /var/lib/mysql/ibdata1 ]; then
 fi
 
 cd /opt/
-git clone git://github.com/facebook/libphutil.git
-git clone git://github.com/facebook/arcanist.git
-git clone git://github.com/facebook/phabricator.git
+git pull git://github.com/facebook/libphutil.git
+git pull git://github.com/facebook/arcanist.git
+git pull git://github.com/facebook/phabricator.git
 
 chmod 666 /opt/phabricator/conf/local/local.json
 
