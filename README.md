@@ -18,13 +18,13 @@ git clone https://github.com/yesnault/docker-phabricator.git
 ./run-server.sh
 ````
 
-Go to http://localhost.local:8081
+Go to http://localhost.local:80
 
-Docker HTTP listen on 8081 and ssh listen on 2244
+Docker HTTP listen on 8081 and ssh listen on 22
 
 You can connect with ssh with this command (and password docker): 
 ```
-ssh admin@localhost -p 2244
+ssh admin@localhost
 ```
 
 Mysql files are written on `/data/phabricator/mysql` (described in run-server.sh)
