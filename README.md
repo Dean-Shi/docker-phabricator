@@ -6,14 +6,14 @@ Dockerfile with debian:jessie / mysql / phabricator
 Run
 ----
 ```
-docker run yesnault/docker-phabricator
+docker run phabricator
 ```
 
 Build and run
 ---------------
 
 ```
-git clone https://github.com/yesnault/docker-phabricator.git
+git clone https://github.com/Dean-Shi/docker-phabricator.git
 ./build.sh
 ./run-server.sh
 ````
