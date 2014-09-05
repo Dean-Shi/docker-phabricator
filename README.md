@@ -20,7 +20,7 @@ git clone https://github.com/yesnault/docker-phabricator.git
 
 Go to http://localhost.local:80
 
-Docker HTTP listen on 8081 and ssh listen on 22
+Docker HTTP listen on 80 and ssh listen on 22
 
 You can connect with ssh with this command (and password docker): 
 ```
